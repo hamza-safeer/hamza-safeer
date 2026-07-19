@@ -1,1 +1,5 @@
-<picture> <source media="(prefers-color-scheme: dark)" srcset="dark.svg"> <source media="(prefers-color-scheme: light)" srcset="light.svg"> <img alt="Hamza Safeer" src="dark.svg"> </picture> This auto-switches the banner based on the visitor's GitHub theme.
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="dark.svg?v=2">
+  <source media="(prefers-color-scheme: light)" srcset="light.svg?v=2">
+  <img alt="Hamza Safeer" src="dark.svg?v=2">
+</picture>
